@@ -3,11 +3,11 @@
 int main(void)
 {
   int n;
-  int a[5];
-  int *p;
+  int b[5];
+  int *l;
 
-  a[2] = 1024;
-  p = &n;
+  b[2] = 1024;
+  l = &n;
   /*
    * write your line of code here...
    * Remember:
@@ -16,10 +16,8 @@ int main(void)
    * - only one statement
    * - you are not allowed to code anything else than this line of code
    */
-  *(p + 5) = 98;
+  *(l + 5) = 98;
   /* ...so that this prints 98\n */
-  printf("a[2] = %d\n", a[2]);
+  printf("b[2] = %d\n", b[2]);
   return (0);
 }
-
-
