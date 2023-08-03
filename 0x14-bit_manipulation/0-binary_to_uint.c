@@ -1,10 +1,7 @@
 #include "main.h"
 
-/**
- * 
- * 
- *
- * Return: the converted number
+/** how 
+* Return: the converted number
 */
 unsigned int binary_to_uint(const char *b)
 {
