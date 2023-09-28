@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 453get_bit - return to bit 
+ * get_bit - return to bit 
  * @n: nomero de recherch
  *  the bit
  *
