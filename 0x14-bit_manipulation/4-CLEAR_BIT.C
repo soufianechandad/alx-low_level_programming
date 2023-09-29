@@ -1,14 +1,15 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
- * delet_bit - puts the value for a given bit to 0
- * pointer to index
- */
+ * clear_bit - This prog sets the value of a bit to 0 at a given index
+ * @n: parameter
+ * @index: index
+ * Return: 1 if success, -1 if error
+*/
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-if (index > 63)
+if (index > sizeof(n) * 8)
 return (-1);
-
-*n = (~(1UL << index) & *n);
+*n &= ~(1 << index);
 return (1);
 }
