@@ -1,12 +1,16 @@
 #include "main.h"
 
 /**
- * checks if a machine is few or more 
- *  0 for more, 1 for few
- */
+ * get_endianness - prog checks the endianness
+ *
+ * Return: 0 if big endian, 1 if little endian
+*/
 int get_endianness(void)
 {
-unsigned int i = 1;
-char *c = (char *) &i;
+int a;
+char *b;
 
-return (*c);
+a = 1;
+b = (char *)&a;
+return (*b);
+}
