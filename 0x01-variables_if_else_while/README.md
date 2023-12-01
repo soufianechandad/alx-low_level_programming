@@ -1,1 +1,2 @@
-the first thing i think
+Projact
+0x01. C - Variables, if, else, while
